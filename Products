@@ -1,0 +1,22 @@
+import java.util.*;
+
+ class Products{
+   private String product;
+    private int val;
+    Products(String product,int val){
+       this.product=product;
+       this.val=val;
+    }
+    Products(){
+       this.product=null;
+       this.val=0;
+    }
+   void productList(){
+    System.out.println("1) Big Cola  -- Rs 10.00");
+    System.out.println("2) Coca Cola -- Rs 25.00");
+    System.out.println("3) Jeeru     -- Rs 85.00");
+    System.out.println("4) Sting     -- Rs 20.00");
+    System.out.println("5) Slice     -- Rs 65.00");
+       System.out.print("Please Enter Id of the specified product");
+   }
+ }
