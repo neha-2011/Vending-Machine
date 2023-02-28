@@ -1,0 +1,5 @@
+class Greetings{
+    void greet(){
+        System.out.println("Thank You So Much Sir.Do visit Again");
+    }
+}
