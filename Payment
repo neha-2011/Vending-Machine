@@ -1,0 +1,28 @@
+import java.util.HashMap;
+
+class Payment{
+    double price (String ans){
+        HashMap<String,Integer> hm1=new HashMap<>();
+        hm1.put("Big Cola",10);
+        hm1.put("Coca Cola",25);
+        hm1.put("Jeeru",85);
+        hm1.put("Sting",20);
+        hm1.put("Slice",65);
+        return hm1.get(ans);
+    }
+    void cash(int val){
+        HashMap<Integer,String > hm=new HashMap<>();
+        hm.put(1,"Big Cola");
+        hm.put(2,"Coca Cola");
+        hm.put(3,"Jeeru");
+        hm.put(4,"Sting");
+        hm.put(5,"Slice");
+        
+        String ans=hm.get(val);
+        System.out.println("Please wait while we proceed  Your Order Sir");
+        System.out .println();
+        System.out.println("Please Pay Rs. "+ price(ans));
+        
+    
+    }
+}
